@@ -78,22 +78,23 @@ export const Banner = () => {
                     Soy desarrolladora web Fullstack, aunque mi pasión es el
                     FrontEnd, ya que vengo del mundo del diseño UX/UI y el
                     famoso 'pixel perfect' es mi aliado, llevo como bandera que
-                    los detalles marcan la diferencia. Te cuento un poco más
-                    sobre mi.. Fui nadadora profesional desde pequeña, por eso
+                    los detalles marcan la diferencia.<br></br>
+                    Te cuento un poco más sobre mi.. <br></br>
+                    Fui nadadora profesional desde pequeña, por eso
                     la disciplina, la organización, constancia y planificación,
-                    entre otras cualidades, están inmersas en mi. Tengo
-                    facilidad para trabajar en equipo, ya que se me da bien
+                    entre otras cualidades, están inmersas en mi. <br></br>
+                    Tengo facilidad para trabajar en equipo, ya que se me da bien
                     comunicarme con los demás y ser empática. Soy responsable,
                     proactiva, mi vida siempre fue muy activa y funciono mejor
                     cuando tengo muchas responsabilidades que sacar adelante, se
-                    trabajar bajo presión. Esto último y la creatividad los puse
-                    en práctica en mi carrera como diseñadora, ya que es una
-                    disciplina muy subjetiva donde siempre hay que defender los
+                    trabajar bajo presión. <br></br>
+                    Esto último y la creatividad los puse en práctica en mi carrera como diseñadora, ya que es una disciplina muy subjetiva donde siempre hay que defender los
                     trabajos y rehacerlos una y otra vez, gracias a ello tengo
-                    constancia, perseverancia y no me rindo fácil. Siempre
-                    dispuesta a aprender, crecer y adquirir nuevos
+                    constancia, perseverancia y no me rindo fácil. <br></br>
+                    Siempre dispuesta a aprender, crecer y adquirir nuevos
                     conocimientos, abierta a desafíos, me adapto a los cambios
-                    con facilidad. Soy una persona resolutiva y optimista que
+                    con facilidad. <br></br>
+                    Soy una persona resolutiva y optimista que
                     tiene muchas ganas de ir por más.
                   </p>
                   <button onClick={() => console.log("connect")}>
