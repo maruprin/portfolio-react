@@ -51,6 +51,13 @@ export const Banner = () => {
     }
   };
 
+  const scrollToConnect = (id) => {
+    let element = document.getElementById(id);
+    if(element) {
+      element.scrollIntoView({ behavior: "smooth"});
+    }
+  }
+
   return (
     <section className="banner" id="home">
       <Container>
@@ -97,7 +104,7 @@ export const Banner = () => {
                     Soy una persona resolutiva y optimista que
                     tiene muchas ganas de ir por más.
                   </p>
-                  <button onClick={() => console.log("connect")}>
+                  <button onClick={() => scrollToConnect("connect")}>
                     Let’s Connect <ArrowRightCircle size={25} />
                   </button>
                 </div>

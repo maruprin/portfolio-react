@@ -22,16 +22,19 @@ export const Projects = () => {
       title: "Oxygen Shop",
       description: "Design & Development",
       imgUrl: projFR1,
+      url: "https://maruprin.github.io/oxygen-shop/",
     },
     {
       title: "Miranda",
       description: "Design & Development",
       imgUrl: projFR2,
+      url: "https://web-hotel-miranda.vercel.app/",
     },
     {
       title: "Portfolio",
       description: "Design & Development",
       imgUrl: projFR3,
+      url: "https://github.com/maruprin/portfolio",
     },
   ];
   const projectsFull = [
@@ -39,16 +42,19 @@ export const Projects = () => {
       title: "Photo App",
       description: "Design & Development",
       imgUrl: projFULL1,
+      url: "https://maruprin.github.io/photo-app/",
     },
     {
       title: "Dashboard Travl",
       description: "Design & Development",
       imgUrl: projFULL2,
+      url: "https://maruprin.github.io/dashboardMiranda/",
     },
     {
       title: "Portfolio",
       description: "Design & Development",
       imgUrl: projFULL3,
+      url: "www.maruprin.es",
     },
   ];
   const projectsUX = [
@@ -85,11 +91,10 @@ export const Projects = () => {
                 >
                   <h2>Projects</h2>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
+                    Aquí están algunos de mis proyectos, la mayoría de ellos, si
+                    volviera a realizarlos los <b>optimizaría y desarrollaría
+                    diferente</b>. Pero todo es un proceso y me encuentro en
+                    <b>constante evolución</b>.
                   </p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
@@ -98,10 +103,10 @@ export const Projects = () => {
                       id="pills-tab"
                     >
                       <Nav.Item>
-                        <Nav.Link eventKey="first">Front End</Nav.Link>
+                        <Nav.Link eventKey="first">Full Stack</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="second">Full Stack</Nav.Link>
+                        <Nav.Link eventKey="second">Front End</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
                         <Nav.Link eventKey="third">UX/UI</Nav.Link>
@@ -115,7 +120,7 @@ export const Projects = () => {
                     >
                       <Tab.Pane eventKey="first">
                         <Row>
-                          {projectsFront.map((project, index) => {
+                          {projectsFull.map((project, index) => {
                             return <ProjectCard key={index} {...project} />;
                           })}
                         </Row>
@@ -123,7 +128,7 @@ export const Projects = () => {
 
                       <Tab.Pane eventKey="second">
                         <Row>
-                          {projectsFull.map((project, index) => {
+                          {projectsFront.map((project, index) => {
                             return <ProjectCard key={index} {...project} />;
                           })}
                         </Row>
