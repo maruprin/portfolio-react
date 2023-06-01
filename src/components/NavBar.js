@@ -30,7 +30,12 @@ export const NavBar = () => {
   const onUpdateActiveLink = (val) => {
     setActiveLink(val);
   };
-
+  const scrollToConnect = (id) => {
+    let element = document.getElementById(id);
+    if(element) {
+      element.scrollIntoView({ behavior: "smooth"});
+    }
+  }
   return (
     <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
       <Container>
@@ -82,7 +87,7 @@ export const NavBar = () => {
                 <img src={navIcon3} alt="navicon" />
               </a>
             </div>
-            <button className="vvd">
+            <button onClick={() => scrollToConnect("connect")} className="vvd">
               <span>Let’s Connect</span>
             </button>
           </span>
