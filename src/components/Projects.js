@@ -54,7 +54,7 @@ export const Projects = () => {
       title: "Portfolio",
       description: "Design & Development",
       imgUrl: projFULL3,
-      url: "www.maruprin.es",
+      url: "#",
     },
   ];
   const projectsUX = [
