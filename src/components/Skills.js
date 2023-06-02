@@ -38,20 +38,44 @@ export const Skills = () => {
                         <p>Estas son mis principales <b>skills</b>, aunque se <b>multiplican y fortalecen</b> a menudo,<br></br> ya que aprendo e incorporo <b>nuevas tecnologías</b> y <b>buenas prácticas</b> a diario</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image1" />
-                                <h5>FrontEnd</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter2} alt="Image2" />
-                                <h5>BackEnd</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter3} alt="Image3" />
-                                <h5>UX/UI</h5>
-                            </div>
-                            <div className="item">
                                 <img src={meter1} alt="Image4" />
-                                <h5>FullStack</h5>
+                                <h5>HTML5/CSS3/SASS+BEM</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter3} alt="Image4" />
+                                <h5>Javascript</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter3} alt="Image4" />
+                                <h5>React.js/Redux/Hooks</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter2} alt="Image4" />
+                                <h5>GIT</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter2} alt="Image4" />
+                                <h5>Jest/Cypress</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter2} alt="Image4" />
+                                <h5>NodeJS</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter2} alt="Image4" />
+                                <h5>mySQL/Mongo</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter2} alt="Image4" />
+                                <h5>Express</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter3} alt="Image4" />
+                                <h5>Wordpress/PHP</h5>
+                            </div>       
+                            <div className="item">
+                                <img src={meter1} alt="Image3" />
+                                <h5>Figma</h5>
                             </div>
                         </Carousel>
                     </div>
