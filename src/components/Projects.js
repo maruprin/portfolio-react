@@ -28,7 +28,7 @@ export const Projects = () => {
       title: "Miranda",
       description: "Design & Development",
       imgUrl: projFR2,
-      url: "https://web-hotel-miranda.vercel.app/",
+      url: "https://web-miranda.vercel.app/",
     },
     {
       title: "Portfolio",
