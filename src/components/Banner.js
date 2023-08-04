@@ -53,10 +53,10 @@ export const Banner = () => {
 
   const scrollToConnect = (id) => {
     let element = document.getElementById(id);
-    if(element) {
-      element.scrollIntoView({ behavior: "smooth"});
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
     }
-  }
+  };
 
   return (
     <section className="banner" id="home">
@@ -82,27 +82,29 @@ export const Banner = () => {
                     </div>
                   </h1>
                   <p>
-                    Soy desarrolladora web Fullstack, aunque mi pasión es el
-                    FrontEnd, ya que vengo del mundo del diseño UX/UI y el
-                    famoso 'pixel perfect' es mi aliado, llevo como bandera que
+                    Soy product designer con pasión por el FrontEnd y desarrollo
+                    de interfaces, ya que vengo del mundo del diseño UX/UI y el
+                    famoso ‘pixel perfect’ es mi aliado, llevo por bandera que
                     los detalles marcan la diferencia.<br></br>
                     Te cuento un poco más sobre mi.. <br></br>
-                    Fui nadadora profesional desde pequeña, por eso
-                    la disciplina, la organización, constancia y planificación,
+                    Fui nadadora profesional desde pequeña, por eso la
+                    disciplina, la organización, constancia y planificación,
                     entre otras cualidades, están inmersas en mi. <br></br>
-                    Tengo facilidad para trabajar en equipo, ya que se me da bien
-                    comunicarme con los demás y ser empática. Soy responsable,
-                    proactiva, mi vida siempre fue muy activa y funciono mejor
-                    cuando tengo muchas responsabilidades que sacar adelante, se
-                    trabajar bajo presión. <br></br>
-                    Esto último y la creatividad los puse en práctica en mi carrera como diseñadora, ya que es una disciplina muy subjetiva donde siempre hay que defender los
-                    trabajos y rehacerlos una y otra vez, gracias a ello tengo
-                    constancia, perseverancia y no me rindo fácil. <br></br>
+                    Tengo facilidad para trabajar en equipo, ya que se me da
+                    bien comunicarme con los demás y ser empática. Soy
+                    responsable, proactiva, mi vida siempre fue muy activa y
+                    funciono mejor cuando tengo muchas responsabilidades que
+                    sacar adelante, se trabajar bajo presión. <br></br>
+                    Esto último y la creatividad los puse en práctica en mi
+                    carrera como diseñadora, ya que es una disciplina muy
+                    subjetiva donde siempre hay que defender los trabajos y
+                    rehacerlos una y otra vez, gracias a ello tengo constancia,
+                    perseverancia y no me rindo fácil. <br></br>
                     Siempre dispuesta a aprender, crecer y adquirir nuevos
                     conocimientos, abierta a desafíos, me adapto a los cambios
                     con facilidad. <br></br>
-                    Soy una persona resolutiva y optimista que
-                    tiene muchas ganas de ir por más.
+                    Soy una persona resolutiva y optimista que tiene muchas
+                    ganas de ir por más.
                   </p>
                   <button onClick={() => scrollToConnect("connect")}>
                     Let’s Connect <ArrowRightCircle size={25} />
