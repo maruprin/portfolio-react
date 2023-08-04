@@ -94,7 +94,7 @@ export const Projects = () => {
                     Aquí están algunos de mis proyectos, la mayoría de ellos, si
                     volviera a realizarlos los <b>optimizaría y desarrollaría
                     diferente</b>. Pero todo es un proceso y me encuentro en
-                    <b>constante evolución</b>.
+                    <b> constante evolución</b>.
                   </p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
@@ -103,13 +103,13 @@ export const Projects = () => {
                       id="pills-tab"
                     >
                       <Nav.Item>
-                        <Nav.Link eventKey="first">Full Stack</Nav.Link>
+                        <Nav.Link eventKey="first">UX/UI</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
                         <Nav.Link eventKey="second">Front End</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="third">UX/UI</Nav.Link>
+                        <Nav.Link eventKey="third">Full Stack</Nav.Link>
                       </Nav.Item>
                     </Nav>
                     <Tab.Content
@@ -120,7 +120,7 @@ export const Projects = () => {
                     >
                       <Tab.Pane eventKey="first">
                         <Row>
-                          {projectsFull.map((project, index) => {
+                          {projectsUX.map((project, index) => {
                             return <ProjectCard key={index} {...project} />;
                           })}
                         </Row>
@@ -135,7 +135,7 @@ export const Projects = () => {
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
                         <Row>
-                          {projectsUX.map((project, index) => {
+                          {projectsFull.map((project, index) => {
                             return <ProjectCard key={index} {...project} />;
                           })}
                         </Row>
